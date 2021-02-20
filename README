@@ -1,0 +1,29 @@
+kdr60 Lab 1 - last updated 2/19/2021
+
+Prerequisites - gcc, firefox
+
+Compilation
+	This project comes with a provided Makefile. To compile the project, simply 
+	execute the 'make' command. A make run command is also included if you wish
+	to run the program immediately after compilation. 
+
+Usage
+	Once the project has been compiled, it can be run using 'make run' or 
+	'./kdr60Shell'. After the program has begun execution, 'H' may be entered 
+	into the command line to display a list of availible shortcuts and fucntionality
+	provided by this shell. Simply type in a shortcut command or another linux command
+	and press the enter key to execute the desired command. 'Q' may be used to quit
+	the console at any time.
+
+Added functions
+	'C file1 file2'  create file2 as a copy of file1. This does not remove file1
+        'D file' Delete the named file
+	'E comment' display comment on screen
+	'H' display the user manual to the screen
+	'L' list the working directory followed by the contents of the current directory
+	'M file' create the named text file by opening nano with the provided filename
+	'P file' display the contents of the named file on screen
+	'Q' quit the shell
+	'S' open an instance of Firefox
+	'W' clear the console screen
+
